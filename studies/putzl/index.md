@@ -2,7 +2,7 @@
 title: Where the work happens
 description: A cleaning week at a parent-run Kita, and how a small app for it was scoped, built with agents, handed over and run, with what it showed.
 date: 2026-11-09
-status: draft
+status: published
 kicker: Case study · corgido · November 2026
 image: img/board.png
 accent: "#1e6b45"
@@ -117,8 +117,7 @@ I had handed the event to the cleaning coordinator before it opened, and they ra
 without me, taking the exports on day three before anyone had thought to ask.
 
 By the end, 32 teams had taken part, and they had done 85% of the list and 95% of what
-the Kita had marked "Zuerst". Two weekends carried nearly all of it, with most teams
-staying in the area where their own child's group is. As for the system itself, it
+the Kita had marked "Zuerst". Two weekends carried nearly all of it. As for the system itself, it
 never logged a single server error.
 
 Of course, two things went wrong. A parent posted their family's link in the Kita
