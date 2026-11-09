@@ -1,0 +1,15 @@
+/* Additions for the case-studies site; style.css is telemetry-by-ear's, unchanged. */
+.studies { list-style: none; padding: 0; margin: 2.5rem 0 0; display: grid; gap: 1rem; }
+.studies li { position: relative; }
+.study { display: grid; gap: .25rem; padding: 1.1rem 1.25rem; border: 1px solid var(--paper-2);
+  border-left: 4px solid var(--card, var(--accent)); border-radius: 6px; text-decoration: none; color: inherit; background: var(--paper); }
+.study:hover, .study:focus-visible { border-color: var(--accent); }
+.study-title { font-weight: 700; font-size: 1.25rem; color: var(--ink); }
+.study-meta { font-size: .85rem; color: var(--ink-3); }
+.study-desc { color: var(--ink-2); }
+.draft { position: absolute; top: .6rem; right: .8rem; font-size: .75rem; text-transform: uppercase;
+  letter-spacing: .06em; color: var(--ink-3); }
+/* A study's own accent on its card; the dark value when the page is dark. */
+.studies li { --card: var(--card-light, var(--accent)); }
+:root[data-theme="dark"] .studies li { --card: var(--card-dark, var(--accent)); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .studies li { --card: var(--card-dark, var(--accent)); } }

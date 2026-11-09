@@ -1,0 +1,9 @@
+{
+  "title": "Case studies",
+  "author": "corgido",
+  "description": "Case studies of things I built and ran: what they were for, how they were made, and what they showed.",
+  "url": "https://corgido.github.io/case-studies",
+  "links": [
+    { "label": "GitHub", "url": "https://github.com/corgido" }
+  ]
+}

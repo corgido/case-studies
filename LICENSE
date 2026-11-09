@@ -1,0 +1,12 @@
+Copyright (c) 2026 corgido. All rights reserved.
+
+The writing, images, design and code in this repository are not licensed for
+reuse. You're welcome to read them here; copying, adapting or republishing any
+of it needs written permission.
+
+Two exceptions, which keep their own licences:
+
+- theme/fonts/: Bebas Neue, Archivo, Space Grotesk and Space Mono, each under
+  the SIL Open Font License 1.1. The licence for each is beside its file.
+- marked, the Markdown parser installed at build time, under the MIT licence.
+  It is not stored in this repository.
